@@ -1,3 +1,23 @@
+/*-------------------  */
+/* Custom properties  */
+/*------------------  */
+
+:root {
+  /* colors */
+  --clr-cyan: 177 68% 64%;
+  --clr-red: 12 94% 65%;
+  --clr-orange: 33 100% 70%;
+  --clr-black: 244 23% 12%;
+  --clr-white: 20 33% 98%;
+
+  /* font-sizes */
+  --fs-700: 3.5rem;
+  --fs-400: 1.125rem;
+
+  /* font-family */
+  --ff-sans-regular: 'IBM Plex Sans', sans-serif;
+}
+
 /*------------------*/
 /* Reset            */
 /*------------------*/
@@ -27,6 +47,10 @@ html:focus-within {
 /* Set up the body*/
 
 body {
+  font-family: var(--ff-sans-regular);
+  font-size: var(--fs-400);
+  color: hsl( var(--clr-black) );
+  background: url(../images/bg-main-desktop.png) top -275px left -250px no-repeat;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -92,3 +116,24 @@ select {
   white-space: nowrap;
   border: 0;
 }
+
+/* colors */ 
+
+.bg-soft-cyan { background-color: hsl( var(--clr-cyan) );}
+.bg-soft-red { background-color: hsl( var(--clr-red) );}
+.bg-light-orange { background-color: hsl( var(--clr-orange) );}
+.bg-dark-blue { background-color: hsl( var(--clr-black) );}
+.bg-light-gravish-orange { background-color: hsl( var(--clr-white) );}
+
+.text-dark-blue { color: hsl( var(--clr-black) );}
+.text-light-gravish-orange { color: hsl( var(--clr-white) );}
+
+/* typography */
+
+.ff-sans-regular { font-family: var(--ff-sans-regular); }
+
+.capitalize { text-transform: capitalize; }
+
+.fs-700 { font-family: var(--fs-700); }
+.fs-400 { font-family: var(--fs-400); }
+
