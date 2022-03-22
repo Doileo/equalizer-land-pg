@@ -11,8 +11,8 @@
   --clr-white: 20 33% 98%;
 
   /* font-sizes */
-  --fs-700: 3.5rem;
-  --fs-400: 1.125rem;
+  --fs-700: 5.5rem;
+  --fs-400: 1.25rem;
 
   /* font-family */
   --ff-sans-regular: 'IBM Plex Sans', sans-serif;
@@ -40,6 +40,12 @@ img {
   margin: 0;
 }
 
+h1,
+h2,
+p {
+  font-weight: 400;
+}
+
 html:focus-within {
   scroll-behavior: smooth;
 }
@@ -50,7 +56,7 @@ body {
   font-family: var(--ff-sans-regular);
   font-size: var(--fs-400);
   color: hsl( var(--clr-black) );
-  background: url(../images/bg-main-desktop.png) top -275px left -250px no-repeat;
+  background: url(../images/bg-main-mobile.png) top -220px left 0 no-repeat;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -60,7 +66,6 @@ body {
 
 img {
   max-width: 100%;
-  display: block;
 }
 
 /* make form elements easier to work with*/
@@ -100,7 +105,6 @@ select {
 }
 
 .container {
-  padding-inline: 2rem;
   margin-inline: auto;
   max-width: 80rem;
 }
@@ -136,4 +140,138 @@ select {
 
 .fs-700 { font-family: var(--fs-700); }
 .fs-400 { font-family: var(--fs-400); }
+
+
+/* Container's style*/
+
+.container {
+  background: none;
+}
+
+header {
+  margin-bottom: 150px;
+  padding-inline: 2rem;
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1px;
+  margin-bottom: 40px;
+}
+
+#header-description {
+  font-size: 1rem;
+  line-height: 26px;
+  padding: 0 10px 0 0;
+}
+
+.header-logo {
+  margin-bottom: 45px;
+  padding-top: 45px;
+}
+
+#container-eq-wrapper {
+  max-width: 1110px;
+  max-height: 600px;
+  border-radius: 10px;
+}
+
+.container-first-pattern {
+  width: 280px;
+  height: 420px;
+  position: absolute;
+  top: 618px;
+  left: 48px;
+}
+
+.mobile-image {
+  width: 209px;
+  height: 430px;
+  position: absolute;
+  top: 520px;
+  left: 80px;
+}
+
+#container-eq-main {
+  width: 375px;
+  height: 546px;
+  border-radius: 12px;
+  position: absolute;
+  left: 0;
+  top: 880px;
+  padding-top: 35px;
+  padding-inline: 2rem;
+}
+
+h2 {
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-bottom: 20px;
+}
+
+.eq-description {
+  line-height: 34px;
+}
+
+.dollar {
+  font-size: 65px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.per-month {
+  position: relative;
+  top: -18px;
+}
+
+.eq-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ios-btn,
+.android-btn {
+  border-radius: 10px;
+  width: 296px;
+  height: 61px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.icon {
+  vertical-align: middle;
+  padding: 0 5px 3px 0;
+}
+
+.ios-btn {
+  border-color: hsl( var(--clr-black) );
+}
+
+.android-btn {
+  border-color: hsl( var(--clr-white) );
+}
+
+.ios-btn:hover {
+  background-color: hsl( var(--clr-cyan) );
+  border-color: hsl( var(--clr-cyan) );
+  cursor: pointer;
+}
+
+.android-btn:hover {
+  background-color: hsl( var(--clr-orange) );
+  border-color: hsl( var(--clr-orange) );
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
