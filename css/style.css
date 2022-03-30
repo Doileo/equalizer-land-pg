@@ -161,8 +161,8 @@ h1 {
 }
 
 #header-description {
-  font-size: 1rem;
-  line-height: 26px;
+  font-size: 1.25rem;
+  line-height: 34px;
   padding: 0 10px 0 0;
 }
 
@@ -172,7 +172,8 @@ h1 {
 }
 
 main {
-  margin-bottom: 400px;
+  margin-bottom: 100px;
+  height: 906px;
 }
 
 .container-eq-wrapper {
@@ -181,23 +182,27 @@ main {
   max-height: 600px;
   border-radius: 10px;
   display: block;
-  background-image: url(../images/bg-pattern-2.png);
-  background-repeat: no-repeat;
   position: relative;
+}
+
+.container-pattern {
+  position: relative;
+  width: 280px;
+  height: 420px;
+  top: 0;
+  left: 40px;
 }
 
 .mobile-image {
-  margin: 0 auto;
-  width: 70%;
-  max-width: 312px;
+  width: 208px;
+  height: 430px;
   position: relative;
-  top: -600px;
-  left: 48px;
+  top: -565px;
+  left: 95px;
 }
 
 #container-eq-main {
-  width: 375px;
-  height: 546px;
+  height: 600px;
   border-radius: 12px;
   position: relative;
   top: -580px;
@@ -237,7 +242,6 @@ h2 {
 .ios-btn,
 .android-btn {
   border-radius: 10px;
-  width: 296px;
   height: 61px;
   margin-bottom: 12px;
   font-weight: 700;
@@ -269,7 +273,31 @@ h2 {
 }
 
 footer {
-  
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 32px;
+}
+
+.footer-wrapper {
+  padding-bottom: 40px;
+}
+
+.footer-description {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 30px 0;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social-icon {
+  padding-right: 10px;
 }
 
 
