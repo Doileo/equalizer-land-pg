@@ -301,6 +301,89 @@ footer {
 }
 
 
+@media only screen and (min-width: 768px) {
+  /* tablet styles here */
+
+  body {
+    background: url(../images/bg-main-tablet.png);
+  }
+
+  .container {
+    background: url(../images/bg-pattern-1.png);
+    background-repeat: no-repeat;
+    background-position: top -25px right -7px;
+    background-size: 266px 400px;
+    padding-inline: 2rem;
+  }
+
+  header {
+    padding: 40px 183px 120px 0;
+    background: none;
+  }
+
+  h1 {
+    font-size: 4rem;
+    line-height: 64px;
+    letter-spacing: -0.73px;
+  }
+
+  .header-description {
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
+
+  main {
+    margin-bottom: 200px;
+    height: 600px;
+  }
+
+  .container-eq-wrapper {
+    max-width: 696px;
+    max-height: 600px;
+  }
+
+  .container-pattern {
+    width: 280px;
+    height: 420px;
+    position: relative;
+    top: -115px;
+    left: 220px;
+  }
+
+  .mobile-image {
+    width: 270px;
+    height: 555px;
+    position: relative;
+    top: -155px;
+    left: -200px;
+  }
+
+  #container-eq-main {
+    width: 399px;
+    height: 546px;
+    padding: 30px;
+    position: relative;
+    top: -375px;
+    left: 233px;
+  }
+
+  .footer-wrapper {
+    display: flex;
+  }
+
+  .footer-left-part,
+  .footer-icons {
+    flex: 50%;
+    padding: 10px;
+  }
+
+  .footer-icons {
+    justify-content: flex-end;
+  }
+
+}
+
+
 
 
 
