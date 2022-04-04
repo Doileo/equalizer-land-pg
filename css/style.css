@@ -11,7 +11,7 @@
   --clr-white: 20 33% 98%;
 
   /* font-sizes */
-  --fs-700: 5.5rem;
+  --fs-700: 3.5rem;
   --fs-400: 1.25rem;
 
   /* font-family */
@@ -137,8 +137,8 @@ select {
 
 .capitalize { text-transform: capitalize; }
 
-.fs-700 { font-family: var(--fs-700); }
-.fs-400 { font-family: var(--fs-400); }
+.fs-700 { font-size: var(--fs-700); }
+.fs-400 { font-size: var(--fs-400); }
 
 
 /* Container's style*/
@@ -293,6 +293,7 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: var(--gap, 1rem);
 }
 
 
