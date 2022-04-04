@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-landing-page-B1U12oOXc)
+- Live Site URL: [Add live site URL here](https://doileo.github.io/equalizer-land-pg/)
 
 ## My process
 
@@ -85,8 +85,8 @@ When the opportunity arises, I would like to continue using the filter property 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Doina](https://doileo.github.io/equalizer-land-pg/)
+- Frontend Mentor - [@Doileo](https://www.frontendmentor.io/profile/Doileo)
+- Twitter - [@Dleovchin](https://twitter.com/DLeovchin)
 
 
